@@ -1,0 +1,25 @@
+@media only screen and (max-width: 720px) {
+  body > .Illustrations {
+    display: block;
+  }
+
+  .leftIllustaration {
+    left: -30%;
+  }
+
+  .leftSection {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Phone {
+    margin-top: 2rem;
+  }
+
+  .rightSection {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}

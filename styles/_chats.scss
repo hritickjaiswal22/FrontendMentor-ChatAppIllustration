@@ -1,0 +1,77 @@
+@import './variables';
+
+.Chats {
+  background-color: hsl(270, 20%, 96%);
+  height: 420px;
+  padding: 1rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.message {
+  font-size: 0.6rem;
+  padding: 0.6rem;
+  width: 170px;
+  color: $moderateViolet;
+  background-color: lightgray;
+  border-radius: 1rem 1rem 1rem 0.2rem;
+  margin: 0.2rem 0;
+}
+
+.reply {
+  margin-left: auto;
+  background-color: white;
+  color: hsl(271, 15%, 43%);
+  border-radius: 1rem 1rem 0.2rem 1rem;
+}
+
+.ImageReply {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  width: 135px;
+}
+
+.Image {
+  width: 40px;
+  height: 40px;
+}
+
+.Image > img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.transitionedMessage {
+  width: 200px;
+  background: linear-gradient(to right, $lightMagenta, $lightViolet);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radioBtn {
+  width: 20px;
+  height: 20px;
+  border: 5px solid hsl(289, 100%, 72%);
+  border-radius: 50%;
+}
+
+.TypeBox {
+  background-color: white;
+  padding: 0.6rem;
+  border-radius: 3rem;
+  margin-top: 0.3rem;
+  font-size: 0.7rem;
+  color: hsl(206, 6%, 79%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SubmitBtn {
+  width: 25px;
+  height: 25px;
+  background-color: hsl(271, 36%, 24%);
+  border-radius: 50%;
+}

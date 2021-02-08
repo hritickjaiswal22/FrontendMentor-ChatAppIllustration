@@ -1,0 +1,219 @@
+.Illustartion {
+  height: 800px;
+  width: 400px;
+  background-color: #9241c8;
+  border-radius: 200px;
+  position: absolute;
+  left: -3%;
+  top: -40%;
+  z-index: -1;
+}
+
+.leftSection {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Phone {
+  width: 300px;
+  height: 550px;
+  background-color: white;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+.screen {
+  border-radius: 1rem;
+}
+
+.Header {
+  height: 100px;
+  background: linear-gradient(to right, #e942ff, #8838ff);
+  border-radius: 2rem 2rem 0 0;
+}
+
+.notchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.notch {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.HeaderInfoBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.leftHeaderBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.avatarBox {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.UserInfoBox h3 {
+  font-weight: 500;
+}
+.UserInfoBox p {
+  font-weight: 400;
+  color: #d89eff;
+}
+
+.Chats {
+  background-color: #f5f3f7;
+  height: 420px;
+  padding: 1rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.message {
+  font-size: 0.6rem;
+  padding: 0.6rem;
+  width: 170px;
+  color: #9241c8;
+  background-color: lightgray;
+  border-radius: 1rem 1rem 1rem 0.2rem;
+  margin: 0.2rem 0;
+}
+
+.reply {
+  margin-left: auto;
+  background-color: white;
+  color: #6e5d7e;
+  border-radius: 1rem 1rem 0.2rem 1rem;
+}
+
+.ImageReply {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  width: 135px;
+}
+
+.Image {
+  width: 40px;
+  height: 40px;
+}
+
+.Image > img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.transitionedMessage {
+  width: 200px;
+  background: linear-gradient(to right, #e942ff, #8838ff);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.radioBtn {
+  width: 20px;
+  height: 20px;
+  border: 5px solid #e570ff;
+  border-radius: 50%;
+}
+
+.TypeBox {
+  background-color: white;
+  padding: 0.6rem;
+  border-radius: 3rem;
+  margin-top: 0.3rem;
+  font-size: 0.7rem;
+  color: #c6cacd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SubmitBtn {
+  width: 25px;
+  height: 25px;
+  background-color: #3e2753;
+  border-radius: 50%;
+}
+
+.rightSection {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.rightSection > h1 {
+  color: #3e2753;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.DescriptionBox {
+  max-width: 400px;
+  color: #a39daa;
+}
+
+@media only screen and (max-width: 720px) {
+  body > .Illustrations {
+    display: block;
+  }
+
+  .leftIllustaration {
+    left: -30%;
+  }
+
+  .leftSection {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Phone {
+    margin-top: 2rem;
+  }
+
+  .rightSection {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Rubik", sans-serif;
+}
+
+.Illustrations {
+  min-height: 720px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f3f7;
+  z-index: 1;
+}/*# sourceMappingURL=styles.css.map */

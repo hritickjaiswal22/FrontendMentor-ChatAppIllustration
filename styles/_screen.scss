@@ -1,0 +1,59 @@
+@import './variables';
+
+.screen {
+  border-radius: 1rem;
+}
+
+.Header {
+  height: 100px;
+  background: linear-gradient(to right, $lightMagenta, $lightViolet);
+  border-radius: 2rem 2rem 0 0;
+}
+
+.notchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.notch {
+  width: 100px;
+  height: 30px;
+  background-color: $white;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.HeaderInfoBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.leftHeaderBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $white;
+}
+
+.avatarBox {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.UserInfoBox {
+  h3 {
+    font-weight: 500;
+  }
+
+  p {
+    font-weight: 400;
+    color: $paleViolet;
+  }
+}

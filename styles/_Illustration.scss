@@ -1,0 +1,12 @@
+@import './variables';
+
+.Illustartion {
+  height: 800px;
+  width: 400px;
+  background-color: $moderateViolet;
+  border-radius: 200px;
+  position: absolute;
+  left: -3%;
+  top: -40%;
+  z-index: -1;
+}

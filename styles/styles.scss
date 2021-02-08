@@ -1,0 +1,31 @@
+// <style>
+//     .attribution { font-size: 11px; text-align: center; }
+//     .attribution a { color: hsl(228, 45%, 44%); }
+// </style>
+@import './variables';
+@import './Illustration';
+@import './leftSection';
+@import './phone';
+@import './screen';
+@import './chats';
+@import './rightSection';
+@import './mediaQueries';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+}
+
+.Illustrations {
+  min-height: 720px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: $lightGrayishViolet;
+  z-index: 1;
+}
